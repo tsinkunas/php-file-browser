@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 60%;
+    background: rgb(58, 55, 116);
+    background: linear-gradient(90deg, rgba(58, 55, 116, 1) 0%, rgba(24, 139, 74, 1) 55%, rgba(35, 189, 81, 1) 100%);
+    border-collapse: collapse;
+    margin: auto;
+    color: honeydew;
+    box-shadow: 3px 14px 28px 16px rgba(127, 127, 127, 0.68);
+}
+
+thead {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+tr {
+    border-top: rgba(0, 0, 0, 0.5) solid 2px;
+}
+
+th {
+    padding: 10px 20px
+}
+
+td {
+    padding: 5px 20px
+}
+
+.dir, .file {
+    font-size: 20px;
+    font-weight: 900;
+}
+.footer {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 0;
+}
+a {
+    text-decoration:none;
+    color: honeydew;
+}
+button {
+    padding: 0 10px;
+}
+.type {
+    width: 10%;
+}
+.action {
+    width: 30%;
+}
+
+form{
+    margin: auto;
+    width: 60%;
+}
+
